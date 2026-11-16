@@ -1,0 +1,14 @@
+# Task 3 – Data Cleaning
+**Project:** Cricket Player Statistics
+**Introduction:**
+Data cleaning is the process of identifying and correcting errors in a dataset to improve its quality and accuracy.
+**Cleaning Process:**
+1. **Identify Missing Values:** Used Pandas `isnull()` function to identify missing values in the dataset.
+2. **Count Missing Values:** Used `isnull().sum()` to calculate the number of missing values in each column.
+3. **Fill Missing Values:** Used `fillna(0)` to replace missing values with zero for this demonstration dataset.
+4. **Identify Duplicate Records:** Used `duplicated()` to identify repeated records.
+5. **Remove Duplicate Records:** Used `drop_duplicates()` to remove duplicate rows.
+6. **Correct Data Types:** Used `astype(int)` to convert Runs, Wickets and Matches columns from text to integer data types.
+7. **Display Cleaned Dataset:** Displayed the final cleaned dataset and verified that no missing or duplicate records remained.
+**Conclusion:**
+Successfully cleaned the Cricket Player Statistics dataset using Python and Pandas. Missing values were handled, duplicate records were removed, and inappropriate data types were corrected. The cleaned dataset was saved as `cricket_cleaned.csv`.

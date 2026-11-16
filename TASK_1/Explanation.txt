@@ -1,0 +1,43 @@
+1.Introduction to NumPy
+NumPy stands for Numerical Python. It is an open-source Python library used for numerical computations and scientific data processing.
+NumPy provides powerful multidimensional arrays and mathematical functions. It is widely used in Artificial Intelligence, Machine Learning, Data Science and scientific computing.
+
+2. Creating NumPy Arrays
+NumPy arrays are created using the np.array() function.
+1D Array: An array containing elements in a single dimension.
+2D Array: An array containing elements arranged in rows and columns.
+Example:
+import numpy as np
+arr1 = np.array([10, 20, 30, 40, 50])
+arr2 = np.array([[1, 2, 3],
+[4, 5, 6]])
+
+3. Array Indexing and Slicing
+Indexing is used to access individual elements from an array.
+Example:
+arr1[0] returns 10.
+Slicing is used to extract a portion of an array.
+Example:
+arr1[1:4] returns [20, 30, 40].
+
+4. Array Shape and Dimensions
+shape: Returns the number of elements along each dimension.
+ndim: Returns the number of dimensions in an array.
+Example:
+arr1.shape returns (5,).
+arr1.ndim returns 1.
+
+5. Basic Mathematical Operations
+NumPy supports mathematical operations directly on arrays.
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+These operations are performed element by element.
+
+6. Statistical Functions
+NumPy provides built-in functions for numerical analysis.
+mean(): Calculates the average value.
+max(): Finds the maximum value.
+min(): Finds the minimum value.
+sum(): Calculates the sum of all elements.
